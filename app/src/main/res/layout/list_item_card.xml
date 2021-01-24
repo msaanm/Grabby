@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_rounded_corners_background"
+    android:layout_margin="10dp"
+    android:elevation="12dp"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/wordTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:layout_marginBottom="10dp"
+        android:textColor="#707070"
+        android:fontFamily="@font/allerta"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/translationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta"
+        android:maxLines="2"
+        android:text="Happiness is an emotional state characterized by feelings of joy, satisfaction, contentment, and fulfillment. While happiness has many different definitions, it is often described as involving positive emotions and life satisfaction. "
+        android:textColor="#676767"
+        android:textSize="14sp" />
+</LinearLayout>
